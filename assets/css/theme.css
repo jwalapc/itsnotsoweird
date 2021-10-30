@@ -5,6 +5,13 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+ @media screen and (max-width: 500px){
+     .header-img img{
+         height: 100%;
+         width: 100%;
+     }
+ }
+
  :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -32,7 +39,7 @@
     --breakpoint-md: 768px;
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
-    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-bmily-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
 }
 
@@ -168,13 +175,13 @@ sup {
 }
 
 a {
-    color: #28b76b;
+    color: #97CEDB;
     text-decoration: none;
     background-color: transparent
 }
 
 a:hover {
-    color: #1a7846;
+    color: #EF798E;
     text-decoration: underline
 }
 
@@ -1641,23 +1648,23 @@ pre code {
 .table-primary,
 .table-primary>th,
 .table-primary>td {
-    background-color: #c3ebd6
+    background-color: #c3ebd6;
 }
 
 .table-primary th,
 .table-primary td,
 .table-primary thead th,
 .table-primary tbody+tbody {
-    border-color: #8fdab2
+    border-color: #8fdab2;
 }
 
 .table-hover .table-primary:hover {
-    background-color: #b0e5c9
+    background-color: #b0e5c9;
 }
 
 .table-hover .table-primary:hover>td,
 .table-hover .table-primary:hover>th {
-    background-color: #b0e5c9
+    background-color: #b0e5c9;
 }
 
 .table-secondary,
@@ -1961,7 +1968,7 @@ pre code {
     background-color: #fff;
     border-color: #7ce2ac;
     outline: 0;
-    box-shadow: 0 0 0 .2rem rgba(40, 183, 107, 0.25)
+    box-shadow: 0 0 0 .2rem rgba(40, 90, 183, 0.25)
 }
 
 .form-control::-webkit-input-placeholder {
@@ -2479,8 +2486,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #28b76b;
-    border-color: #28b76b
+    background-color: #288fb7;
+    border-color: #b7287c
 }
 
 .btn-primary:hover {
@@ -3833,7 +3840,7 @@ input.btn-block[type="button"] {
 
 .custom-checkbox .custom-control-input:indeterminate~.custom-control-label::before {
     border-color: #28b76b;
-    background-color: #28b76b
+    background-color: #cbddd3
 }
 
 .custom-checkbox .custom-control-input:indeterminate~.custom-control-label::after {
@@ -5123,7 +5130,7 @@ a.badge:focus {
 a.badge-primary:hover,
 a.badge-primary:focus {
     color: #fff;
-    background-color: #1f8d53
+    background-color: #1f3c8d
 }
 
 a.badge-primary:focus,
@@ -7862,7 +7869,7 @@ button.bg-dark:focus {
 }
 
 .shadow-sm {
-    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important
+    box-shadow: 0 0.125rem 0.25rem rgba(13, 9, 248, 0.075) !important
 }
 
 .shadow {
@@ -10237,8 +10244,8 @@ a.theme-link:hover {
 
 .theme-icon-holder {
     display: inline-block;
-    background: #f4fcf6;
-    color: #28b76b;
+    background: #fcf5f6;
+    color: #EF798E;
     width: 32px;
     height: 32px;
     padding-top: 4px;
@@ -10248,7 +10255,7 @@ a.theme-link:hover {
 }
 
 .theme-icon-holder .svg-inline---fa {
-    color: #28b76b
+    color: #2883b7
 }
 
 .theme-bg-light {
@@ -10374,7 +10381,7 @@ a.theme-link:hover {
 
 .social-list li {
     font-size: 1.125rem;
-    background: #f4fcf6;
+    background: #f5f5f5;
     width: 32px;
     height: 32px;
     text-align: center;
@@ -10383,11 +10390,11 @@ a.theme-link:hover {
 }
 
 .social-list li a {
-    color: #3dd584
+    color: #97CEDB;
 }
 
 .social-list li a:hover {
-    color: #28b76b
+    color: #EF798E
 }
 
 .social-list li:not(:last-child) {
@@ -10423,7 +10430,7 @@ a.theme-link:hover {
 
 .docs-overview .card:hover {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-    background: #f4fcf6
+    background: #f7fbfc
 }
 
 .docs-overview .card:hover .card-icon-holder {
@@ -10482,7 +10489,7 @@ a.theme-link:hover {
 .search-form .search-btn:focus,
 .search-form .search-btn:hover {
     outline: none !important;
-    color: #28b76b;
+    color: #3228b7;
     box-shadow: none
 }
 
