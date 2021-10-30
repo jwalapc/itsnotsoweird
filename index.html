@@ -9,8 +9,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Bootstrap Documentation Template For Software Developers">
     <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
-    
     <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+	 <!-- Chatbot-->
+	 <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+	<df-messenger intent="WELCOME" chat-title="Hygiene Bot"  agent-id="b5f20b98-60c2-41f3-8220-3106ff1ad9fd"  language-code="en" chat-icon="assets/images/coderdocs-logo.png">
+		<style>
+			df-messenger {
+   --df-messenger-bot-message: #798C92;
+   --df-messenger-button-titlebar-color: #d0cbcf;
+   --df-messenger-chat-background-color: #fafafa;
+   --df-messenger-font-color: #000;
+   --df-messenger-send-icon: #203375;
+   --df-messenger-user-message: #D6B0A7;
+  }
+		</style>
+	</df-messenger>
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/jpg" href="assets/images/coderdocs-logo.png"/>
@@ -44,7 +57,7 @@
         </div><!--//branding-->
     </header><!--//header-->
 	<div class="header-img">
-		<img src="assets/images/its.gif"  width="1440px" height="760px" alt="">
+	<img src="assets/images/its.gif"  width="1519px" height="760px" alt="">
 	</div>
     
     
@@ -58,7 +71,7 @@
 						    <div class="card-body">
 							    <h5 class="card-title mb-3">
 								    <span class="theme-icon-holder card-icon-holder me-2">
-								        <i class="fas fa-male"></i>
+										<i class="fas fa-mars"></i>
 							        </span><!--//card-icon-holder-->
 							        <span class="card-title-text">Male</span>
 							    </h5>
@@ -74,7 +87,7 @@
 						    <div class="card-body">
 							    <h5 class="card-title mb-3">
 								    <span class="theme-icon-holder card-icon-holder me-2">
-								        <i class="fas fa-female"></i>
+										<i class="fas fa-venus"></i>
 							        </span><!--//card-icon-holder-->
 							        <span class="card-title-text">Female</span>
 							    </h5>
@@ -104,15 +117,7 @@
 				   
 
     <section class="cta-section text-center py-5 theme-bg-dark position-relative">
-	    <div class="theme-bg-shapes-right"></div>
-	    <div class="theme-bg-shapes-left"></div>
-	    <div class="container">
-		    <h3 class="mb-2 text-white mb-3">Launch Your Software Project Like A Pro</h3>
-		    <div class="section-intro text-white mb-3 single-col-max mx-auto">Want to launch your software project and start getting traction from your target users? Check out our premium <a class="text-white" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-5-startup-template-for-software-projects/">Bootstrap 5 startup template CoderPro</a>! It has everything you need to promote your product.</div>
-		    <div class="pt-3 text-center">
-			    <a class="btn btn-light" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-5-startup-template-for-software-projects/">Get CoderPro<i class="fas fa-arrow-alt-circle-right ml-2"></i></a>
-		    </div>
-	    </div>
+	    
     </section><!--//cta-section-->
 
     <footer class="footer">
